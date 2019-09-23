@@ -10,3 +10,9 @@ const circumCircle = (radius) => {
 const areaTriangle = (base, height) => {
     return 0.5 * base * height;
 }
+
+
+
+const areaRegPolygon = (numsides, apothem, sidelength) => {
+    return numsides * (0.5 * apothem * sidelength)
+}
