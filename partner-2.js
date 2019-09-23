@@ -14,5 +14,9 @@ const areaTriangle = (base, height) => {
 
 
 const areaRegPolygon = (numsides, apothem, sidelength) => {
-    return numsides * (0.5 * apothem * sidelength)
+    return numsides * (0.5 * apothem * sidelength);
+}
+
+const volCylinder = (radius, height) => {
+    return 355/115 * radius * radius * height;
 }
