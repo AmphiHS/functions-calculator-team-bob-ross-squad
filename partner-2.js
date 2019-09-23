@@ -20,3 +20,9 @@ const areaRegPolygon = (numsides, apothem, sidelength) => {
 const volCylinder = (radius, height) => {
     return 355/115 * radius * radius * height;
 }
+
+
+const pythagTheorem = (a,b) => {
+   return a * a + b * b;
+}
+
