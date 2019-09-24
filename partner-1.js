@@ -44,6 +44,30 @@ const cToF = (Celcius) => {
 const Slope = (x1,y1,x2,y2) => {
     return (y2-y1)/(x2-x1);
 };
-const distance = (x1,y1,x2,y2) => {
+const distanceNotWORKINGATMneedTofixTHIS = (x1,y1,x2,y2) => {
     return ((y2-y1)(y2-y1))+((x2-x1)(x2-x1));
+};
+const velocity = (inVelo, accel, time) => {
+    return inVelo+accel*time;
+};
+const distancePhysics = (inDis, inVelo, accel, time) => {
+    return inDis+inVelo*time+(1/2)*accel*(time*time);
+};
+const circAccel = (velocity, radius) => {
+    return ((velocity*velocity)/radius);
+};
+const momentum = (mass, velocity) => {
+    return mass*velocity;
+};
+const kineticEnergy = (mass, velocity) => {
+    return (1/2)*mass*(velocity*velocity) ;
+};
+const SpotenEnergy = (mass, gravity, heightChange) => {
+    return mass*gravity*heightChange;
+};
+const current = (voltage, resistance) => {
+    return voltage/resistance;
+};
+const compoundNotfinished = (principal,rate,time,compoundTimes) => {
+    return principal*(1+(rate/compoundTimes));
 };
