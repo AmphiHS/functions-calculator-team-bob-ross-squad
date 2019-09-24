@@ -1,7 +1,7 @@
 //Name: Daniel
 
 
-// Geometry functions done
+
 
 const circumCircle = (radius) => {
     return 2 * 355/115 * radius;
@@ -32,10 +32,14 @@ const pythagTheorem = (a,b) => {
 const circArea = (radius) => {
     return (355/113) * (radius * radius);
 }
-
+// Geometry functions done
 
 
 const inchtoCent = (length) => {
     return 2.54 * length;
 }
 
+
+const centtoInch = (length) => {
+    return length / 2.54;
+}
