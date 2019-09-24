@@ -1,6 +1,8 @@
 //Name: Daniel
 
 
+// Geometry functions done
+
 const circumCircle = (radius) => {
     return 2 * 355/115 * radius;
 }
@@ -24,5 +26,16 @@ const volCylinder = (radius, height) => {
 
 const pythagTheorem = (a,b) => {
    return a * a + b * b;
+}
+
+
+const circArea = (radius) => {
+    return (355/113) * (radius * radius);
+}
+
+
+
+const inchtoCent = (length) => {
+    return 2.54 * length;
 }
 
