@@ -102,3 +102,13 @@ const distance = (x1,y1,x2,y2) => {
 
 
 
+//Physics 
+
+const power = (current, voltage) => {
+    return current * voltage;
+}
+
+//Finance 
+const simple = (rate, principle, time) => {
+    return (rate/100) * principle * time;
+}
